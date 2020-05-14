@@ -30,6 +30,7 @@ function IntroScreenView(props) {
           uri: image,
         }}
       >
+        <SafeAreaView style={{flex: 1}}>
         <TouchableOpacity
           style={styles.buttonSkipWrapper}
           onPress={onPressSkip}
@@ -42,6 +43,7 @@ function IntroScreenView(props) {
             {content}
           </Text>
         </View>
+        </SafeAreaView>
       </ImageBackground>
     );
   };

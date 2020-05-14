@@ -52,12 +52,12 @@ export default styles = StyleSheet.create({
     height: 35
   },
   buttonSkipWrapper: {
-    position: "absolute",
-    top: 45,
-    left: 20,
+    width: 60,
+    height: 25,
+    margin: 16,
     backgroundColor: "rgba(0, 0, 0, 0.3)",
-    paddingHorizontal: 8,
-    paddingVertical: 6,
+    alignItems: 'center',
+    justifyContent: 'center',
     borderRadius: 5,
   },
   imgBg: {
